@@ -28,16 +28,18 @@ Significa que primero está construyendo su gráfico computacional y luego una v
 input1 = tf.constant(2.0)
 input2 = tf.constant(5.0)
 </code>
-luego:
+<br />
+Debido a que todavía estamos construyendo el gráfico, imprimir las entradas no mostrará los valores almacenados. Se mostrarán una vez que se evalúen los nodos.
 <code>
   print(input1, input2)
  </code>
 
-#### CONCEPT#4: Sesion
+#### CONCEPTO#4: Sesion
 Para evaluar el gráfico computacional, o cualquier nodo para el caso, debe ejecutarlo dentro de una sesión. La sesión se puede crear con el siguiente código:
 <code>
   sess = tf.Session()
 </code>
+
 <br />
 Una vez que la sesión está activada, puede usar el método <code> run </code> para obtener los valores. Intenta hacerlo para entradas constantes:
   <code>
