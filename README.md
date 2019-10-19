@@ -46,8 +46,9 @@ Una vez que la sesión está activada, puede usar el método <code>run</code> pa
 <br />
 6)<code>print(sess.run([input1, input2]))</code>
 
-Tenga en cuenta que esta vez el resultado son los valores numéricos reales esperados: 2.0 y 5.0.
-Para terminar el gráfico necesitamos el tercer nodo y el método add.
+<br />
+<p>Tenga en cuenta que esta vez el resultado son los valores numéricos reales esperados: 2.0 y 5.0.
+Para terminar el gráfico necesitamos el tercer nodo y el método add.</p>
 <br />
 7)<code>add_node = tf.add(input1, input2) </code>
 
@@ -55,6 +56,7 @@ Como anteriormente, puede ver diferentes salidas dependiendo de si el nodo fue o
 <br />
 8)<code>print(add_node)</code><br />
 9)<code>print(sess.run(add_node))</code>
+<br />
 La primera línea muestra la información del tensor, la segunda, el resultado de agregar el cálculo: 7.0.
 
 #### CONCEPTO#4: Placeholders
