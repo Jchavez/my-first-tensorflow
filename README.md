@@ -6,11 +6,11 @@ https://katacoda.com/courses/tensorflow/playground
 
 ### Cómo usar los conceptos de TensorFlow Core
 #### CONCEPTO#1: Python
-Para comenzar a trabajar con Python Shell, ejecute el siguiente comando <br />
+<p>Para comenzar a trabajar con Python Shell, ejecute el siguiente comando</p>
 1) <code>python</code> <br />
-Puedes usar <code>quit()</code> para salir de la Shell.
+<code>quit()</code> para salir de la Shell.
 
-Para comenzar a trabajar con TensorFlow, primero debe importarlo para dar acceso a Python a todos sus recursos<br />
+<p>Para comenzar a trabajar con TensorFlow, primero debe importarlo para dar acceso a Python a todos sus recursos</p>
 2) <code>import tensorflow as tf</code>
 <br />
 Más adelante, cada vez que desee utilizar clases, métodos o símbolos de TensorFlow, simplemente debe referirse a la variable <code>tf</code>.
